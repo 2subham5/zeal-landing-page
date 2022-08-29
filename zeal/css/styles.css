@@ -1,0 +1,156 @@
+body{
+  background-color: #000000;
+  padding-top: 4.3rem;
+}
+.discord{
+  color: #FFB200;
+}
+.container-title{
+  padding: 0 0 9rem;
+  background-color: #2B2B2B;
+}
+.container-feature{
+  background-color: #FFB200;
+  padding: 1.5rem 1rem;
+
+}
+.nav-item{
+  color: #F7F5F2;
+}
+/* .nav-list nav-item a{
+    color: FFFFFF;
+} */
+.row{
+  padding-top: 1.5rem
+}
+.feature{
+  text-align: center;
+  font-size: 1.5rem;
+  color: #000000;
+
+}
+.feature-p{
+  padding: 5rem 0;
+}
+.navbar{
+  /* background-color: #362222; */
+  padding: 1rem 2.5rem 1rem;
+  text-align: right;
+  background-blend-mode: darken;
+}
+h2{
+  color: #F7F5F2;
+
+}
+.about-heading{
+  padding: 2rem 2.5rem;
+}
+.about-part2{
+    padding: 2rem 2rem;
+}
+.about-heading h2{
+  color: #F7F5F2;
+  line-height: 1;
+  font-size: 2.8rem;
+  font-family: "Montserrat-Black";
+}
+.about-heading p{
+  /* color: #F7F5F2; */
+  font-size: 1.5rem;
+  padding: 1rem 0 0;
+}
+.about-heading2{
+  padding:
+}
+.intro p{
+  color: #F7F5F2;
+
+}
+.list{
+  margin: 2rem 0;
+}
+b{
+  font-size: 3.5rem;
+  color: #FFB200;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1;
+  padding: 2.5rem 0 0;
+}
+.btn-end{
+  color: #FFB200;
+}
+
+.btn-end:hover{
+  background-color: #FFB200;
+
+}
+.join-button{
+  border-radius: 0;
+  color: #FFB200;
+}
+.btn-discord{
+  padding: 2.5rem 0;
+}
+.row{
+  padding-left: 1.5rem;
+}
+
+.tick-font{
+  padding-right: 0.5rem;
+}
+.contact-page{
+  margin: 5rem 0;
+}
+.contact{
+  text-align: center;
+  font-size: 2rem;
+}
+.contact-heading{
+  position: relative;
+   /* left: 2rem; */
+  font-size: 3.5rem;
+}
+/* .contact{
+  padding-left: 2rem;
+} */
+.insta{
+  /* color: #f8fafc; */
+}
+.last-section{
+  margin: 2rem 0;
+}
+.social-icon{
+  position: relative;
+  left: 9rem;
+  padding: 1rem 1rem;
+}
+@media (min-width:600px) and (max-width:720px)  {
+  .social-icon{
+    position: relative;
+    left: 25rem;
+    bottom: 5rem;
+    transform: rotate(10deg);
+  }
+  .contact-heading{
+    position: relative;
+    right: 3rem;
+  }
+  .last-section{
+    margin: 2rem 0 1rem;
+  }
+}
+
+
+@media (max-width:600px) {
+  .contact-heading{
+    justify-content: center;
+  }
+}
